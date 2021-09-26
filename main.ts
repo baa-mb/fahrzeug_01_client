@@ -9,4 +9,3 @@ input.onButtonPressed(Button.B, function () {
 })
 basic.showIcon(IconNames.SmallDiamond)
 radio.setGroup(54)
-

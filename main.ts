@@ -4,11 +4,11 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.AB, function () {
     radio.sendString("AB")
-    lauf = 1
+    lauf = 0
 })
 input.onButtonPressed(Button.B, function () {
     radio.sendString("B")
-    lauf = 0
+    lauf = 1
 })
 let lauf = 0
 basic.showIcon(IconNames.SmallDiamond)
